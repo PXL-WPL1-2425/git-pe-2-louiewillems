@@ -1,9 +1,29 @@
+nav{
+    display: flex;
+    /*flex-direction: row;*/
+
+}
+
 nav > div
 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 33%;
-    display: inline-block;
 }
 
 .logo-img {
     height: 150px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 14pt;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
 }
