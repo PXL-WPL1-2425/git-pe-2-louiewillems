@@ -1,23 +1,21 @@
-nav{
+nav {
     display: flex;
-    /*flex-direction: row;*/
-
 }
 
-nav > div
-{
+nav > div {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 33%;
 }
 
 .logo-img {
-    height: 150px;
+    height: 60px;
 }
 
 a {
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 14pt;
 }
@@ -26,4 +24,19 @@ ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    padding-left: 0;
 }
+ul > li {
+    padding: 0 20px;
+}
+
+.signInButton {
+    background-color: red;
+    color: black;
+    height: 20px;
+    padding: 2px;
+    width: 90px;
+    text-align: center;
+    border-radius: 10px;
+}
+
